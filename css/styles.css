@@ -22,11 +22,3 @@ ol {
 
 button {
 }
-
-.footer-logo-icon {
-  width: 100px;
-  height: 100px;
-  background: url('sprite.png') no-repeat -50px -100px;
-
-  border: 2px solid red;
-}

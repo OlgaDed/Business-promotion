@@ -16,24 +16,30 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Business promotion</title>
   </head>
+
   <body>
-    <header>
-      <img src="./images/logo.png" alt="logo" />
-      <a href="">Product</a>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <svg class="header-logo-icon" width="36" height="32">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+          <a href="./index.html" class="logo">Product</a>
 
-      <nav>
-        <ul>
-          <li><a href="">Product</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Customers</a></li>
-          <li><a href="">Resources</a></li>
-        </ul>
-      </nav>
+          <ul class="nav-list">
+            <li><a href="./index.html">Product</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </nav>
 
-      <button>Sign In</button>
+        <button type="button" class="sign-in">Sign In</button>
 
-      <button>Sign Up</button>
+        <button type="button" class="sign-up">Sign Up</button>
+      </div>
     </header>
+
     <main>
       <!-- Hero -->
       <section>
@@ -44,42 +50,72 @@
         </p>
 
         <button>Get started</button>
-        <img src="./images/tv-hero.svg" alt="video icon" />
-        <a href="">Watch the Video</a>
-        <img
-          src="./images/hero-img.png"
-          alt="Schematic diagram of the site menu"
-        />
-      </section>
-      <!-- Feature -->
-      <section>
-        <h2>Product was Built Specifically for You</h2>
+        <a href=""
+          ><svg class="" width="16" height="18">
+            <use href="./images/icons.svg#icon-tv-hero"></use></svg
+          >Watch the Video</a
+        >
         <div>
-          <ul>
-            <li>
-              <img src="./images/first-click-tests.svg" alt="mouse cursor" />
-              <h3>First click tests</h3>
-              <p>While most people enjoy casino gambling,</p>
+          <img
+            src="./images/hero-img.png"
+            alt="Schematic diagram of the site menu"
+          />
+        </div>
+      </section>
+
+      <!-- Feature -->
+      <section class="feature">
+        <div class="container">
+          <h2 class="feature-title">Product was Built Specifically for You</h2>
+          <ul class="feature-list">
+            <li class="feature-item">
+              <div class="feature-icon-box">
+                <svg class="feature-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-first-click-tests"></use>
+                </svg>
+              </div>
+              <h3 class="feature-product">First click tests</h3>
+              <p class="feature-text">
+                While most people enjoy casino gambling,
+              </p>
             </li>
             <li>
-              <img src="./images/design-surveys.svg" alt="Design surveys" />
-              <h3>Design surveys</h3>
-              <p>Sports betting, lottery and bingo playing for the fun</p>
+              <div class="feature-icon-box">
+                <svg class="feature-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-design-surveys"></use>
+                </svg>
+              </div>
+              <h3 class="feature-product">Design surveys</h3>
+              <p class="feature-text">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
             </li>
             <li>
-              <img src="./images/preference-tests.svg" alt="Heart" />
-              <h3>Preference tests</h3>
-              <p>The Myspace page defines the individual.</p>
+              <div class="feature-icon-box">
+                <svg class="feature-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-preference-tests"></use>
+                </svg>
+              </div>
+              <h3 class="feature-product">Preference tests</h3>
+              <p class="feature-text">
+                The Myspace page defines the individual.
+              </p>
             </li>
             <li>
-              <img src="./images/five-second-tests.svg" alt="Hourglass" />
-              <h3>Five second tests</h3>
-              <p>Personal choices and the overall personality of the person.</p>
+              <div class="feature-icon-box">
+                <svg class="feature-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-five-second-tests"></use>
+                </svg>
+              </div>
+              <h3 class="feature-product">Five second tests</h3>
+              <p class="feature-text">
+                Personal choices and the overall personality of the person.
+              </p>
             </li>
           </ul>
-        </div>
 
-        <button>SIGN UP NOW</button>
+          <button>SIGN UP NOW</button>
+        </div>
       </section>
 
       <!-- Business management -->
@@ -376,7 +412,7 @@
     <footer>
       <div>
         <svg class="footer-logo-icon" width="36" height="32">
-          <use href="./images/symbol-defs.svg#icon-logo"></use>
+          <use href="./images/icons.svg#icon-logo"></use>
         </svg>
         <a href="#">Product</a>
       </div>
@@ -385,7 +421,7 @@
         <ul>
           <li>
             <a href="#"
-              ><svg class="footer-logo-icon" width="32" height="32">
+              ><svg class="footer-logo-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
@@ -397,7 +433,7 @@
         <ul>
           <li>
             <a href="#"
-              ><svg class="footer-logo-icon" width="32" height="32">
+              ><svg class="footer-logo-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
@@ -409,7 +445,7 @@
         <ul>
           <li>
             <a href="#"
-              ><svg class="footer-logo-icon" width="32" height="32">
+              ><svg class="footer-logo-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
@@ -452,7 +488,7 @@
           /></label>
 
           <button class="footer-form-button" type="submit">
-            Sign up Now<svg class="footer-form-icon" width="24" height="24">
+            Sign up Now<svg class="footer-form-icon" width="18" height="28">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </button>
