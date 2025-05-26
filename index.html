@@ -19,14 +19,14 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="nav">
+      <div class="header-container">
+        <nav class="header-nav">
           <svg class="header-logo-icon" width="36" height="32">
             <use href="./images/icons.svg#icon-logo"></use>
           </svg>
           <a href="./index.html" class="logo">Product</a>
 
-          <ul class="nav-list">
+          <ul class="header-nav-list">
             <li><a href="./index.html">Product</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Customers</a></li>
@@ -43,7 +43,7 @@
     <main>
       <!-- Hero -->
       <section class="hero">
-        <div class="container">
+        <div class="hero-container">
           <h1 class="hero-title">Work at the speed of thought</h1>
           <p class="hero-text">
             Tools, tutorials, design and innovation experts, all in one place!
@@ -67,7 +67,7 @@
 
       <!-- Feature -->
       <section class="feature">
-        <div class="container">
+        <div class="feature-container">
           <h2 class="feature-title">Product was Built Specifically for You</h2>
           <ul class="feature-list">
             <li class="feature-item">
@@ -81,7 +81,7 @@
                 While most people enjoy casino gambling,
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <div class="feature-icon-box">
                 <svg class="feature-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-design-surveys"></use>
@@ -92,7 +92,7 @@
                 Sports betting, lottery and bingo playing for the fun
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <div class="feature-icon-box">
                 <svg class="feature-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-preference-tests"></use>
@@ -103,7 +103,7 @@
                 The Myspace page defines the individual.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <div class="feature-icon-box">
                 <svg class="feature-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-five-second-tests"></use>
@@ -122,7 +122,7 @@
 
       <!-- Business management -->
       <section class="management">
-        <div class="container">
+        <div class="management-container">
           <p class="management-text-validation">Effortless Validation for</p>
           <h2 class="management-title">Management</h2>
           <p class="management-text">
@@ -154,7 +154,7 @@
 
       <!-- Support -->
       <section class="support">
-        <div class="container">
+        <div class="support-container">
           <div class="support-image">
             <img
               src="./images/support-img.jpg"
@@ -206,7 +206,7 @@
 
       <!-- Collaboration -->
       <section class="collaboration">
-        <div class="container">
+        <div class="collaboration-container">
         <p class="collaboration-text-optimisation">Optimisation for</p>
         <h2 class="collaboration-title">Collaborative</h2>
         <p class="collaboration-text">
@@ -236,7 +236,7 @@
 
       <!-- Staff -->
       <section class="staff">
-        <div class="container">
+        <div class="staff-container">
         <h2 class="staff-title">Quick & Easy Process</h2>
         <p class="staff-text-help">
           Do you require some help for your project: Conception workshop,
@@ -279,7 +279,7 @@
 
       <!-- News feed -->
       <section class="news">
-        <div class="container">
+        <div class="news-container">
         <h2 class="news-title">Contents Strategies</h2>
         <p class="news-text">
           We focus on ergonomics and meeting you where you work. It's only a
@@ -319,7 +319,7 @@
 
       <!-- Pricing -->
       <section class="pricing">
-        <div class="container">
+        <div class="pricing-container">
         <h2 class="pricing-title">Price Table</h2>
         <p class="pricing-text">We offer competitive price</p>
 
@@ -342,38 +342,38 @@
           <button type="button" class="pricing-order-free">Order Now</button>
         </div>
 
-        <div pricing-price>
-          <h3 class="pricing-title-price">Standard</h3>
-          <ppricing-text-price>Brief price description</ppricing-text-price>
-          <p class="pricing-text-price-month">5<sup>$</sup><sub>Per / month</sub></p>
-          <ul class="pricing-list">
-            <li class="pricing-item">
-              <p>Only 2 Operators</p>
+        <div class="pricing-price-standard">
+          <h3 class="pricing-title-price-standard">Standard</h3>
+          <p class="pricing-text-price-standard">Brief price description</p>
+          <p class="pricing-text-price-standard">5<sup>$</sup><sub>Per / month</sub></p>
+          <ul class="pricing-list-standard">
+            <li class="pricing-item-standard">
+              <p class="pricing-text-price-item-standard">Only 2 Operators</p>
             </li>
-            <li class="pricing-item">
-              <p>Notifications</p>
+            <li class="pricing-item-standard">
+              <p class="pricing-text-price-item-standard">Notifications</p>
             </li>
-            <li class="pricing-item">
-              <p>Landing Pages</p>
+            <li class="pricing-item-standard">
+              <p class="pricing-text-price-item-standard">Landing Pages</p>
             </li>
           </ul>
 
           <button type="button" class="pricing-order-standard">Order Now</button>
         </div>
 
-        <div pricing-price>
+        <div class="pricing-price">
           <h3 class="pricing-title-price">Premium</h3>
           <p class="pricing-text-price">Brief price description</p>
-          <p>10<sup>$</sup><sub>Per / month</sub></p>
-          <ul>
+          <p class="pricing-text-price-month">10<sup>$</sup><sub>Per / month</sub></p>
+          <ul class="pricing-list">
             <li class="pricing-item">
-              <p>Only 2 Operators</p>
+              <p class="pricing-text-price-item">Only 2 Operators</p>
             </li>
             <li class="pricing-item">
-              <p>Notifications</p>
+              <p class="pricing-text-price-item">Notifications</p>
             </li>
             <li class="pricing-item">
-              <p>Landing Pages</p>
+              <p class="pricing-text-price-item">Landing Pages</p>
             </li>
           </ul>
 
@@ -383,172 +383,288 @@
       </section>
 
       <!-- Feedback -->
-      <section>
-        <h2>What Clients Say</h2>
-        <p>
+      <section class="feedback">
+        <div class="feedback-container">
+        <h2 class="feedback-title">What Clients Say</h2>
+        <p class="feedback-text">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
 
-        <div>
-          <ul class="rating">
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-half.svg" alt="пуста зірки" /></li>
+        <div class="feedback-icon-box">
+          <ul class="feedback-icon-list-rating">
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+          <li class="feedback-icon-rating">
+            <div class="feedback-icon-box-rating">
+            <svg class="feedback-icon-rating" width="16" height="16">
+              <use href="./images/icons.svg#icon-star-full"></use>
+            </svg>
+          </div>
+        </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-half"></use>
+              </svg>
+            </div>
+          </li>
           </ul>
-          <p>
+
+          <p class="feedback-text-rating">
             Product helps you see how many more days you need to work to reach
             your financial goal.
           </p>
-          <ul>
-            <li>
+          <ul class="feedback-list-team">
+            <li class="feedback-item-team">
               <img src="./images/wahid-ari1.png" alt="Wahid Ari" />
-              <h3>Wahid Ari</h3>
-              <p>Designer</p>
+              <h3 class="feedback-rating-team">Wahid Ari</h3>
+              <p  class="feedback-text-team">Designer</p>
             </li>
           </ul>
         </div>
 
-        <div>
-          <ul class="rating">
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-half.svg" alt="пуста зірки" /></li>
+        <div class="feedback-icon-box">
+          <ul class="feedback-icon-list-rating">
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+          <li class="feedback-icon-rating">
+            <div class="feedback-icon-box-rating">
+            <svg class="feedback-icon-rating" width="16" height="16">
+              <use href="./images/icons.svg#icon-star-full"></use>
+            </svg>
+          </div>
+        </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-half"></use>
+              </svg>
+            </div>
+          </li>
           </ul>
-          <p>
+
+          <p class="feedback-text-rating">
             Product helps you see how many more days you need to work to reach
             your financial goal.
           </p>
-          <ul>
-            <li>
+          <ul class="feedback-list-team">
+            <li class="feedback-item-team">
               <img src="./images/wahid-ari2.png" alt="Wahid Ari" />
-              <h3>Wahid Ari</h3>
-              <p>Designer</p>
+              <h3 class="feedback-rating-team">Wahid Ari</h3>
+              <p  class="feedback-text-team">Designer</p>
             </li>
           </ul>
         </div>
 
-        <div>
-          <ul class="rating">
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-full.svg" alt="заповнена зірка" /></li>
-            <li><img src="star-half.svg" alt="пуста зірки" /></li>
+        <div class="feedback-icon-box">
+          <ul class="feedback-icon-list-rating">
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+          <li class="feedback-icon-rating">
+            <div class="feedback-icon-box-rating">
+            <svg class="feedback-icon-rating" width="16" height="16">
+              <use href="./images/icons.svg#icon-star-full"></use>
+            </svg>
+          </div>
+        </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-full"></use>
+              </svg>
+            </div>
+          </li>
+
+            <li class="feedback-icon-rating">
+              <div class="feedback-icon-box-rating">
+              <svg class="feedback-icon-rating" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-half"></use>
+              </svg>
+            </div>
+          </li>
           </ul>
-          <p>
+
+          <p class="feedback-text-rating">
             Product helps you see how many more days you need to work to reach
             your financial goal.
           </p>
-          <ul>
-            <li>
+          <ul class="feedback-list-team">
+            <li class="feedback-item-team">
               <img src="./images/wahid-ari3.png" alt="Wahid Ari" />
-              <h3>Wahid Ari</h3>
-              <p>Designer</p>
+              <h3 class="feedback-rating-team">Wahid Ari</h3>
+              <p  class="feedback-text-team">Designer</p>
             </li>
           </ul>
+        </div>
         </div>
       </section>
 
       <!-- Promo -->
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button>Get This</button>
+      <section class="promo">
+        <div class="promo-container">
+        <h2 class="promo-title">Join 100 Compannies who boost their business with Product</h2>
+        <button type="button" class="promo-product">Get This</button>
         <img src="./images/graphics.png" alt="Graphics" />
+        </div>
       </section>
     </main>
 
     <!-- footer -->
-    <footer>
-      <div>
-        <svg class="footer-logo-icon" width="36" height="32">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-        <a href="#">Product</a>
-      </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-container-logo-icon">
+         <svg class="footer-logo-icon" width="36" height="32">
+            <use href="./images/icons.svg#icon-logo"></use>
+         </svg>
+          <a href="#">Product</a>
+        </div>
 
-      <div>
-        <ul>
-          <li>
-            <a href="#"
-              ><svg class="footer-logo-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
+        <!-- social -->
+        <div class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="#"
+                ><svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="#"
+                ><svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="#"
+                ><svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p>Resource</p>
+          <nav>
+            <ul class="header-nav-list">
+              <li><a href="#"></a>About Us</a></li>
+              <li>Blog</li>
+              <li>Contact</li>
+              <li>FQA</li>
+            </ul>
+        </nav>
+        </div>
+
+        <div>
+          <p>Legal Stuff</p>
+          <nav>
+            <ul>
+              <li>Disclaimer</li>
+              <li>Financing</li>
+              <li>Privacy Policy</li>
+            </ul>
+        </nav>
+        </div>
+
+        <!-- Форма підписки у футері -->
+        <div class="footer-form">
+          <p class="footer-form-title">
+            knowing you're always on the best energy deal.
+          </p>
+          <form class="footer-form-mail">
+            <label class="footer-form-label"
+              ><input
+                class="footer-form-label-input"
+                type="phone"
+                name="Enter your phone number"
+                placeholder="Enter your phone number"
+                required
+            /></label>
+
+            <button class="footer-form-button" type="submit">
+              Sign up Now<svg class="footer-form-icon" width="18" height="28">
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li>
-            <a href="#"
-              ><svg class="footer-logo-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li>
-            <a href="#"
-              ><svg class="footer-logo-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <p>Resource</p>
-        <ul>
-          <li>About Us</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li>FQA</li>
-        </ul>
-      </div>
-
-      <div>
-        <p>Legal Stuff</p>
-        <ul>
-          <li>Disclaimer</li>
-          <li>Financing</li>
-          <li>Privacy Policy</li>
-        </ul>
-      </div>
-
-      <!-- Форма підписки у футері -->
-      <div class="footer-form">
-        <p class="footer-form-title">
-          knowing you're always on the best energy deal.
-        </p>
-        <form class="footer-form-mail">
-          <label class="footer-form-label"
-            ><input
-              class="footer-form-label-input"
-              type="phone"
-              name="Enter your phone number"
-              placeholder="Enter your phone number"
-              required
-          /></label>
-
-          <button class="footer-form-button" type="submit">
-            Sign up Now<svg class="footer-form-icon" width="18" height="28">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+            </button>
+          </form>
+        </div>
+        <p>Made With Love By Figmaland All Right Reserved</p>
+    </div>
     </footer>
   </body>
 </html>
