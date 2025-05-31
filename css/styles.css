@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -9,8 +10,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 ul,
@@ -19,25 +19,97 @@ ol {
   padding-left: 0;
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .header {
 }
+
 .header-container {
+  display: flex;
+  align-items: center;
 }
+
 .header-nav {
+  display: flex;
+  align-items: center;
 }
+
 .header-logo-icon {
+  margin-right: 16px;
 }
-.logo {
+
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+
+  /* line-height: 28px; */
+  line-height: 0.93333;
+  color: #173a56;
+  padding: 22px 0;
+  margin-right: 237px;
 }
+
 .header-nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
 }
-.sign-in {
+
+.header-nav-link-product {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75; /* line-height: 28px; */
+  color: #22343d;
 }
-.sign-up {
+
+.header-nav-link {
+  display: block;
+  padding: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75; /* line-height: 28px; */
+  color: #22343d;
+}
+
+.button-sign-in {
+  margin-right: 21px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  background: #fff;
+}
+.button-sign-up {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  background: #02897a;
 }
 .hero {
 }
@@ -260,6 +332,8 @@ button {
 .footer-container-logo-icon {
 }
 .footer-logo-icon {
+}
+.footer-logo {
 }
 .footer-social {
 }
